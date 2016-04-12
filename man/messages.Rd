@@ -39,17 +39,17 @@ messages( LR(3,1,1) )
 function (M) 
 {
     options(warn = -1)
-    if (M == "NOT additive") {
-        return(noquote(paste0("NOT additive")))
+    if (M == "Addition has NOT a closed form of a LR fuzzy number") {
+        return(noquote(paste0("Addition has NOT a closed form of a LR fuzzy number")))
     }
-    else if (M == "NOT subtractive") {
-        return(noquote(paste0("NOT subtractive")))
+    else if (M == "Subtraction has NOT a closed form of a LR fuzzy number") {
+        return(noquote(paste0("Subtraction has NOT a closed form of a LR fuzzy number")))
     }
-    else if (M == "NOT productive") {
-        return(noquote(paste0("NOT productive")))
+    else if (M == "Production has NOT a closed form of a LR fuzzy number") {
+        return(noquote(paste0("Production has NOT a closed form of a LR fuzzy number")))
     }
-    else if (M == "NOT dividable") {
-        return(noquote(paste0("NOT dividable")))
+    else if (M == "Division has NOT a closed form of a LR fuzzy number") {
+        return(noquote(paste0("Division has NOT a closed form of a LR fuzzy number")))
     }
     else if (M == " The fourth element of each LR fuzzy number must be 0 or 0.5 or 1! ") {
      return(noquote(paste0(" The fourth element of each LR fuzzy number must be 0 or 0.5 or 1! ")))

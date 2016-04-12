@@ -100,7 +100,7 @@ function (M, N)
         return(invisible(c(a1, a2, a3, a4)))
     }
     else {
-        return(noquote(paste0("NOT subtractive")))
+        return(noquote(paste0( "Subtraction has NOT a closed form of a LR fuzzy number" )))
     }
   }
 }

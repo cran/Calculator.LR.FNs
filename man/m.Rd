@@ -124,7 +124,7 @@ function (M, N)
         return(messages(N))
     }
     if (M[4] != N[4]) {
-        return(noquote(paste0("NOT productive")))
+        return(noquote(paste0("Production has NOT a closed form of a LR fuzzy number")))
     }
     else if ((sign(M) == "Positive") & (sign(N) == "Positive")) {
         a1 = M[1] * N[1]

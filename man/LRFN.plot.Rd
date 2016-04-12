@@ -10,8 +10,8 @@ By this function one can plot and draw any kind of LR, RL and L fuzzy numbers.
 }
 
 \usage{
-LRFN.plot(M, xlim = NULL, ylim = NULL, lwd = NULL, lty = NULL, col = NULL, add = NULL
-  , Left.fun = NULL, Right.fun = NULL)
+LRFN.plot(M, Left.fun = NULL, Right.fun = NULL, xlim = NULL, ylim = NULL, lwd = NULL
+     , lty = NULL, col = NULL, add = NULL )
 }
 
 \arguments{
@@ -56,7 +56,7 @@ Abbas Parchami }
 
 \examples{
 # Example 1:
-# First introduce left-side and right-side of LR fuzzy number
+# First introduce left-side and right-side functions of LR fuzzy number
 Left.fun  = function(x)  { (1-x^2)*(x>=0)}
 Right.fun = function(x)  { (exp(-x))*(x>=0)}
 A = LR(20, 12, 10)
@@ -84,9 +84,11 @@ legend( "topright", c("LR(17, 5, 3)", "RL(20, 2, 3)", "L(30, 15, 5)"), col = c(2
 
 
 ## The function is currently defined as
-function (M, Left.fun = NULL, Right.fun = NULL, xlim = NULL, ylim = NULL, lwd = NULL, lty = NULL, 
-    col = NULL, add = NULL) 
+function (M, Left.fun = NULL, Right.fun = NULL, xlim = NULL, ylim = NULL, lwd = NULL
+    , lty = NULL, col = NULL, add = NULL) 
 {
+    if ( length(col) == 0) {col=1}
+
     if (messages(M) != 1) {
         return(messages(M))
     }

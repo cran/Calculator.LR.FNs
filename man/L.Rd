@@ -6,7 +6,8 @@ Introducing the form of L fuzzy number
 }
 
 \description{
-This function introduce a total form for L fuzzy number (a LR fuzzy number with equal left and right shape functions, i.e. L(.) = R(.)). 
+Considering the definition of LR fuzzy number in \code{LR}, if the left and the right shape functions of a LR fuzzy number are be equal (i.e., \eqn{ L(.) = R(.) }), then LR fuzzy number is a L fuzzy number which denoted by \eqn{ (n, \alpha, \beta)L }.
+Function \code{L}  introduce a total form for L fuzzy number to computer.
 }
 
 \usage{

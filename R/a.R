@@ -7,7 +7,7 @@ if ( messages(N) != 1 )  { return( messages(N) ) }
 
 if ( M[4] != N[4] ) 
   {
-   return( noquote( paste0("NOT additive" ) ) )
+   return( noquote( paste0("Addition has NOT a closed form of a LR fuzzy number" ) ) )
   } 
  else
    {

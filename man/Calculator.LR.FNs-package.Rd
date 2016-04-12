@@ -8,7 +8,12 @@
 Calculator for LR Fuzzy Numbers package, i.e. \code{Calculator.LR.FNs} package, is an open source (LGPL 3) package for R which provides the generalized four arithmetic operations \eqn{+}, \eqn{-}, \eqn{\times } and \eqn{\div } on LR fuzzy numbers. 
 Arithmetic operations addition and subtraction are based on Zadeh extension principle. Also the scalar multiplication of a real number into a LR fuzzy number is considered in this package on the basis of Zadeh extension principle.
 Although the class of LR fuzzy numbers is not theoretically closed under the operations \eqn{\times } and \eqn{\div }, but we apply from approximation for multiplication and division of LR fuzzy numbers which lead the users to a LR fuzzy numbers.
+\code{Calculator.LR.FNs} package make it easier for researchers, students and any other interested people about fuzzy Mathematics to experience this with a simple calculator.
 Function \code{LRFN.plot} is designed in \code{Calculator.LR.FNs} package for potting the membership function of any LR fuzzy number.
+}
+
+\details{
+If the Operation has NOT a closed form or is not defined as a LR fuzzy number, one can continue calculations by  \code{FuzzyNumbers}  package to achive a the figure of membership function of final result using cuts of the final result.
 }
 
 \author{
@@ -144,14 +149,14 @@ Right.fun = function(x)  { (1-x)*(x>=0)}
 A = LR(5, 0.5, 1)
 B = LR(2, 0.3, 0.6)
 C = RL(1, 0.7, 1.5)
-D = LR(.5, 0.5, 1)
+D = LR(0.5, 0.5, 1)
 
 E = s.m(a(A,B), 1/2) # The mean of A and B
 F = s(s.m(a(A,B), 1/2), C)
 G = m(F,D)
 
 xlim = c(-1, 6)
-ylim = c(0, 1.6)
+ylim = c(0, 1.5)
 LRFN.plot( A, xlim=xlim, ylim=ylim, lwd=3, lty=1, col=1) 
 LRFN.plot( B, xlim=xlim, ylim=ylim, lwd=3, lty=1, col=2, add=TRUE)
 LRFN.plot( C, xlim=xlim, ylim=ylim, lwd=3, lty=1, col=3, add=TRUE)
@@ -161,9 +166,9 @@ LRFN.plot( E, xlim=xlim, ylim=ylim, lwd=3, lty=2, col=5, add=TRUE)
 LRFN.plot( F, xlim=xlim, ylim=ylim, lwd=3, lty=3, col=6, add=TRUE)
 LRFN.plot( G, xlim=xlim, ylim=ylim, lwd=3, lty=4, col=7, add=TRUE)
 
-legend( "topright", c("A = LR(5, 0.5, 1)", "B = LR(2, 0.3, 0.6)", "C = RL(1, 0.7, 1.5)",
-   "D = LR(.5, 0.5, 1)", "(A + B)/2 = LR(3.5, 0.4, 0.8)", "[(A + B)/2] - C = LR(2.5, 1.9, 1.5)",
+legend( "topleft", c("A = LR(5, 0.5, 1)", "B = LR(2, 0.3, 0.6)", "C = RL(1, 0.7, 1.5)",
+   "D = LR(0.5, 0.5, 1)", "(A + B)/2 = LR(3.5, 0.4, 0.8)", "[(A + B)/2] - C = LR(2.5, 1.9, 1.5)",
    "{[(A + B)/2] - C} * D  = LR(1.25, 2.2, 3.2)" ),  col = c(1:7), text.col = 1, 
-   lwd = c(2,2,2,2,2,2,2), lty = c(1, 1, 1, 1 , 2, 3, 4) )
+   lwd = c(2,2,2,2,2,2,2), lty = c(1, 1, 1, 1 , 2, 3, 4), bty = "n" )
 
 }

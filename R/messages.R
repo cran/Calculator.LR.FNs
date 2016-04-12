@@ -3,21 +3,21 @@ function (M)  {
 
 options(warn = -1) 
 
-if  ( M == "NOT additive" ) 
+if  ( M == "Addition has NOT a closed form of a LR fuzzy number" ) 
   {
-   return( noquote( paste0("NOT additive" ) ) )
+   return( noquote( paste0( "Addition has NOT a closed form of a LR fuzzy number" ) ) )
   } 
- else if  ( M == "NOT subtractive" ) 
+ else if  ( M == "Subtraction has NOT a closed form of a LR fuzzy number" ) 
   {
-   return( noquote( paste0("NOT subtractive" ) ) )
+   return( noquote( paste0( "Subtraction has NOT a closed form of a LR fuzzy number" ) ) )
   } 
- else if  ( M == "NOT productive" ) 
+ else if  ( M == "Production has NOT a closed form of a LR fuzzy number" ) 
   {
-   return( noquote( paste0("NOT productive" ) ) )
+   return( noquote( paste0( "Production has NOT a closed form of a LR fuzzy number" ) ) )
   } 
- else if  ( M == "NOT dividable" ) 
+ else if  ( M == "Division has NOT a closed form of a LR fuzzy number" ) 
   {
-   return( noquote( paste0("NOT dividable" ) ) )
+   return( noquote( paste0( "Division has NOT a closed form of a LR fuzzy number" ) ) )
   } 
 
  else if  ( M == " The fourth element of each LR fuzzy number must be 0 or 0.5 or 1! " ) 

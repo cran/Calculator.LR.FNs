@@ -5,9 +5,21 @@
 Introducing the form of LR fuzzy number
 }
 
+
 \description{
-This function introduce a total form for LR fuzzy number. 
+Function \code{LR} introduce a total form for LR fuzzy number. 
+Note that, if the membership function of fuzzy number \eqn{N} is 
+ \deqn{ N(x)=\left\{
+\begin{array}{lcc}
+L \left(  \frac{n-x}{\alpha} \right)   &\ \ if   & \  \  x \leq n
+\\
+R \left( \frac{x-n}{\beta} \right)   &\ \ if   & \  \  x > n
+\end{array}
+\right. }
+where \eqn{L} and \eqn{R} are two non-increasing functions from \eqn{ R^+ \cup \{0\} } to \eqn{[0,1]} (say left and right shape function) and \eqn{L(0)=R(0)=1} and also \eqn{\alpha,\beta>0}; 
+then \eqn{N} is named a LR fuzzy number and we denote it by  \eqn{ N=(n, \alpha, \beta)LR } in which  \eqn{n} is core and  \eqn{\alpha} and  \eqn{\beta} are left and right spreads of \eqn{N}, respectively. 
 }
+
 
 \usage{
 LR(m, m_l, m_r)

@@ -130,7 +130,7 @@ function (M, N)
         }
     }
     else {
-        return(noquote(paste0("NOT dividable")))
+        return(noquote(paste0("Division has NOT a closed form of a LR fuzzy number")))
     }
   }
 }

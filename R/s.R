@@ -17,6 +17,6 @@ if ( (M[4]==1 & N[4]==0) | (M[4]==0 & N[4]==1) | (M[4]==0.5 & N[4]==0.5) )
    }
  else
   {
-   return( noquote( paste0("NOT subtractive" ) ) )
+   return( noquote( paste0("Subtraction has NOT a closed form of a LR fuzzy number" ) ) )
   } 
 }

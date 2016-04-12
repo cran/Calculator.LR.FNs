@@ -24,7 +24,7 @@ if ( (M[4]==1 & N[4]==0) | (M[4]==0 & N[4]==1) | (M[4]==0.5 & N[4]==0.5) )
   }
 else
   {
-   return( noquote( paste0("NOT dividable" ) ) )
+   return( noquote( paste0("Division has NOT a closed form of a LR fuzzy number" ) ) )
   }
 
 }

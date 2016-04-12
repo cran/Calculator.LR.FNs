@@ -6,7 +6,8 @@ Introducing the form of RL fuzzy number
 }
 
 \description{
-This function introduce a total form for RL fuzzy number. 
+Considering the definition of LR fuzzy number in \code{LR}, it is obvious that \eqn{ (n, \alpha, \beta)RL } will be a RL fuzzy number.
+Function \code{RL} introduce a total form for RL fuzzy number to computer. 
 }
 
 \usage{
