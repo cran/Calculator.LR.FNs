@@ -1,4 +1,4 @@
 exportPattern("^[[:alpha:]]+")
-importFrom("graphics", "par", "plot")
+importFrom("graphics", "par", "curve")
 importFrom("graphics", "plot.default")
 

@@ -84,10 +84,9 @@ s.m(2, s.m(-2, LR(4,2,1)))
 Left.fun  = function(x)  { (1/(1+x^2))*(x>=0)}
 Right.fun = function(x)  { (1/(1+(2*abs(x))))*(x>=0)}
 A = RL(3,2,1)
-xlim=c(-4,15)
-LRFN.plot( A, xlim=xlim, ylim=c(0,1), lwd=2, lty=2, col=2) 
-LRFN.plot( s.m(0.5, A), xlim=xlim, ylim=c(0,1), lwd=2, lty=3, col=1, add=TRUE)
-LRFN.plot( s.m(2, A), xlim=xlim, ylim=c(0,1), lwd=2, lty=4, col=1, add=TRUE)
+LRFN.plot( A, xlim=c(-4,15), lwd=2, lty=2, col=2) 
+LRFN.plot( s.m(0.5, A), lwd=2, lty=3, col=1, add=TRUE)
+LRFN.plot( s.m(2, A), lwd=2, lty=4, col=1, add=TRUE)
 legend( "topright", c("A = RL(3, 2, 1)", "0.5 A", "2 A"), col = c(2, 1, 1), text.col = 1
      , lwd = c(2,2,2), lty = c(2, 3, 4))
 

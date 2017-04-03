@@ -38,7 +38,7 @@ Left.fun  = function(x)  { (1-x)*(x>=0)}
 Right.fun = function(x)  { (exp(-x))*(x>=0)}
 T = LR(1, 0.6, 0.2)
 support(T)
-LRFN.plot( T, xlim=c(-5,20), ylim=c(0,1), lwd=2, lty=3, col=4)
+LRFN.plot( T, xlim=c(-5,20), lwd=2, lty=3, col=4)
 
 N = RL(3, 0.5, 2)
 support(N)

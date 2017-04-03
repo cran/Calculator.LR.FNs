@@ -64,9 +64,9 @@ s(s(N, M), M)
 Left.fun  = function(x)  { (1-x)*(x>=0)}
 A = L(5,3,2)
 B = L(3,2,1)
-LRFN.plot( A, xlim=c(-3,12), ylim=c(0,1), lwd=2, lty=2, col=2) 
-LRFN.plot( B, xlim=c(-3,12), ylim=c(0,1), lwd=2, lty=2, col=3, add=TRUE)
-LRFN.plot( s(A, B), xlim=c(-3,12), ylim=c(0,1), lwd=2, lty=3, col=1, add=TRUE)
+LRFN.plot( A, xlim=c(-3,12), lwd=2, lty=2, col=2) 
+LRFN.plot( B, lwd=2, lty=2, col=3, add=TRUE)
+LRFN.plot( s(A, B), lwd=2, lty=3, col=1, add=TRUE)
 legend( "topright", c("A = L(5, 3, 2)", "B = L(3, 2, 1)", "A - B = L(2, 4, 4)"), col = c(2, 3, 1)
      , text.col = 1, lwd = c(2,2,2), lty = c(2, 2, 3) )
 
