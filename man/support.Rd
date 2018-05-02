@@ -80,7 +80,7 @@ function (M, Left.fun = NULL, Right.fun = NULL)
         supp[2] = +Inf
     }
     return(supp)
-  if (Left.fun == Right.fun+100 ) print(2) #Yek jomleye alaki choon CRAN majburet karde bud ke ...
+
   }
 }
 

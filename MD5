@@ -1,4 +1,4 @@
-e252aeee38c33bbbb21e9355b7331993 *DESCRIPTION
+387a63744874e84410237c1cff58da41 *DESCRIPTION
 7b106ed7e92b99891dd26f8ed7c49479 *NAMESPACE
 e5e81c89972036b06d30205c1a9ebd48 *R/L.R
 c6f4f3d3b341a81793c9331f8e9d41ab *R/LR.R
@@ -7,12 +7,12 @@ eb89f91edcfbbde9cfb21f696009cc4a *R/LRFN.plot.R
 16acc246397476e80752198efce608b4 *R/a.R
 1b6fe8ebd05bc672fbfc7a733730da34 *R/d.R
 a5b509def1cf85d5bbe903b75a8b942d *R/m.R
-19ca4fdbbe2000e60ab0f51fd2d91585 *R/messages.R
+a7a60b395bfb5d587f7f6eca616164a2 *R/messages.R
 8256a5ea488fef45cd1c04a952b27727 *R/s.R
 e009a61e74bd3cdbfa75a57a4371e005 *R/s.m.R
 4f20d0b388192b980570f60ad75fa66f *R/sign.R
-fe06f3477d42f3b60f76dcbe3d1259ab *R/support.R
-1a6ead898a8c01973c6dd66480f045b9 *build/partial.rdb
+69b674e92d4241ac7e44d7f56764a6bd *R/support.R
+b6abbddca23439f441bb9cbe3989b873 *build/partial.rdb
 ac132c42dc95d474a6c70dbdc5373ceb *man/Calculator.LR.FNs-package.Rd
 b0fa1a85cded270b02809bdb9b18e388 *man/L.Rd
 01b9e376c76d786537aef7d322c39608 *man/LR.Rd
@@ -21,8 +21,8 @@ b0fa1a85cded270b02809bdb9b18e388 *man/L.Rd
 7f1d3d344bf1b5aafdb9b96de266654e *man/a.Rd
 ecd49c142342a95fe4a0e41821a6edf0 *man/d.Rd
 335c7152fad3d28e236baed25c1ab045 *man/m.Rd
-7ae234558e295645c196a95d115601bf *man/messages.Rd
+cb838938ab0f98ee0a41087e7801e4fe *man/messages.Rd
 dfb0701f4725bdc18641d37728731ddf *man/s.Rd
 96e639b1a4b98adfb4d255ffd9abb592 *man/s.m.Rd
 c721ed1ab318802f516ab28adfd189bd *man/sign.Rd
-186471eeee4f398396bc0c5112359184 *man/support.Rd
+c87eaaf2ececc152388b479879574235 *man/support.Rd

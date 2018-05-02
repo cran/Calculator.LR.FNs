@@ -11,7 +11,7 @@ supp[1] = min(x[0<y & y<1])
 supp[2] = max(x[0<y & y<1])
  if ( supp[1] == min(x) ) { supp[1] = -Inf }
  if ( supp[2] == max(x) ) { supp[2] = +Inf }
-#print( noquote( paste("The support of fuzzy numver is interval:" ) ) )
+#print( noquote( paste("The support of fuzzy number is interval:" ) ) )
 return(supp )
-  if (Left.fun == Right.fun+100 ) print(2) #Yek jomleye alaki choon CRAN majburet karde bud ke ...
+  if (Left.fun(2) == Right.fun(2)+100 ) print(2) #Yek jomleye alaki choon CRAN majburet karde bud ke ...
 }
